@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <!-- HEADER -->
+
+    <section class="header">
+      <div class="container">
+        <header class="nav-bar-items">
+          <a class="logo" href="#">
+            <img class="logo" src="./assets/Images/Logo.png" alt="logo"></img>
+          </a>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li><a class="active" href="#banner">Banner</a></li>
+              <li><a href="#about">About Us</a></li>
+            </ul>
+          </nav>
+          <a class="nav-contact-item" href="#contact">Contact Me</a>
+        </header>
+      </div>
+    </section>
+
+    <!-- BANNER -->
+
+    <section class="banner" id="banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-left">
+                    <div class="small-text">Hey, I am someone </div>
+                    <h1 class="title">I create <span style="color: var(--color-primary);"> product design</span> and brand experience</h1>
+                    <div class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                    <button class="button"><a href="#contact">get in Touch</a></button>
+                </div>
+                <div class="banner-right">
+                    <div class="image">
+                        <img class="banner-image" src="./assets/Images/banner.png" alt="banner"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h1 class="title">ABOUT US</h1>
+                <div class="about-articles">
+                    <div class="article-block">
+                        <div class="article-design">
+                            <img class="article-pic" src="./assets/Images/port1.png" alt="pic"></img>
+                        </div>
+                        <div class="article-content">
+                            <div class="small-text">29.Jun.2021</div>
+                            <h3 class="medium-text">Instagram artists with great photography skills</h3>
+                            <div class="description-text">Many years ago, I worked for my parents who own a video production company.</div>
+                            <div class="small-text">By: Peter Rowardson</div>
+                        </div>
+                    </div>
+                    <div class="article-block">
+                        <div class="article-design">
+                            <img class="article-pic" src="./assets/Images/port2.png" alt="pic"></img>
+                        </div>
+                        <div class="article-content">
+                            <div class="small-text">29.Jun.2021</div>
+                            <h3 class="medium-text">Instagram artists with great photography skills</h3>
+                            <div class="description-text">Many years ago, I worked for my parents who own a video production company.</div>
+                            <div class="small-text">By: Peter Rowardson</div>
+                        </div>
+                    </div>
+
+
+                    <div class="article-block">
+                        <div class="article-design">
+                            <img class="article-pic" src="./assets/Images/port3.png" alt="pic"></img>
+                        </div>
+                        <div class="article-content">
+                            <div class="small-text">29.Jun.2021</div>
+                            <h3 class="medium-text">Instagram artists with great photography skills</h3>
+                            <div class="description-text">Many years ago, I worked for my parents who own a video production company.</div>
+                            <div class="small-text">By: Peter Rowardson</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-top">
+                    <div class="small-text">Get in Touch</div>
+                    <h1 class="title">Contact Me</h1>
+                    <div class="desctiption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="">
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="fname">First Name:</label>
+                                <input type="text" id="fname" name="fname" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-item message-item">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Type your message here"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <input type="checkbox" name="agreement" required class="checkbox">
+                            <label for="agreement"> I accept the terms</label>
+                        </div>
+
+                        <button type="submit" class="button contact-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <div class="container">
+          <footer class="nav-bar-items">
+            <a class="logo" href="#">
+                <img class="logo" src="./assets/Images/Logo.png" alt="logo"></img>
+              </a>
+            <nav class="menu">
+              <ul class="menu-list">
+                <li><a class="active" href="#banner">Banner</a></li>
+                <li><a href="#about">About Us</a></li>
+              </ul>
+            </nav>
+            <div class="nav-icons">
+                <ul class="icons">
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                </ul>
+            </div>
+          </footer>
+        </div>
+      </section>
+  </body>
+</html>
